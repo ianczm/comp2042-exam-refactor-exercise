@@ -10,6 +10,8 @@ public abstract class Movie implements Rental {
         this.movieName = movieName;
     }
 
+    public abstract double calculateRent(int daysRent);
+
     public String getRentalItemName() {
         return this.movieName;
     }

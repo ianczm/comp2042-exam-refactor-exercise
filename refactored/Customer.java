@@ -1,4 +1,4 @@
-public class Customer {
+public class Customer implements CanMakeRentals {
     private final String customerName;
     private final RentalAccount rentalAccount;
 
